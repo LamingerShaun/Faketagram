@@ -8,9 +8,54 @@
         <meta name="keywords" content="HTML, CSS, SEO, web, web development, social media">
         <link rel="shortcut icon" href="assets/img/favicon.png?v=2" type="image/x-icon">
         <link rel="stylesheet" href="assets/style/index.css" media="screen">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
         <script src="assets/script/index.js" defer></script>
-        <title></title>
+        <title>Fake social media</title>
     </head>
     <body>
+        <main>
+            <header>
+                    <nav>
+                        <h1 class="title">Faketagram</h1>
+                        <div class="nav-left">
+                            <ul>
+                                <li><img src="assets/media/notification.png"</li>
+                                <li><img src="assets/media/inbox.png"</li>
+                                <li><img src="assets/media/video.png"</li>
+                            </ul>
+                        </div>
+                        <div class="nav-right">
+                            <ul>
+                                <li><a href="#">Friends</a></li>
+                                <li><a href="#">Groups</a></li>
+                                <li><a href="#">Trending</a></li>
+                                <li><a href="#">Settings</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <section class="content">
+                <div class="post-input container">
+                    <form>
+                        <textarea rows="3" placeholder="Share your thoughts"></textarea>
+                        <div class="post-links">
+                            <label for="add-img">
+                                <img class="img-icon" src="assets/media/photo.png">
+                            <input id="add-img" type="file" accept="image/jpeg, image/png">
+                            </label>
+                            <input type="button" class="post" value="Post">
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer>
+                <p class="copyright">
+                    Faketagram&#169;
+                </p>
+            </footer>
+        </main>
     </body>
 </html>

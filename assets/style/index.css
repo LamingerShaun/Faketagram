@@ -1,1 +1,107 @@
 @import "reset.css";
+
+body {
+    background-color: #efefef;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background: #1876f2;
+    padding: 5px 5%;
+    color: #fff;
+}
+
+.title {
+    width: 160px;
+    margin-right: 45px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    margin-left: 750px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.nav-right ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-left ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-left ul li img {
+    width: 28px;
+    margin: 0 15px;
+}
+
+section {
+    height: calc(100vh - 56px - 112px);
+    display: flex;
+    align-items: center;
+}
+
+.post-input {
+    margin-inline: auto;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.post-input textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+
+#add-img {
+    display: none;
+}
+
+label {
+    cursor:pointer;
+}
+
+.img-icon {
+    margin-top: 15px;
+}
+
+.post {
+    border-radius: 40px;
+    width: 25%;
+    margin-left: 50px;
+    background-color: #00AD57;
+    color: #fff;
+    font-size: 16px;
+}
+
+footer {
+    height: 112px;
+    background-color: #fcfcfc;
+}
+
+footer .copyright {
+    line-height: 56px;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #1a1a1a
+}
