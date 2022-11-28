@@ -49,6 +49,13 @@ nav {
     margin: 0 15px;
 }
 
+.user {
+    margin-left: 5px;
+    width: 30px;
+    color: #fff;
+    background: transparent;
+}
+
 section {
     height: calc(100vh - 56px - 112px);
     display: flex;
