@@ -33,6 +33,34 @@
                                 <li><a href="#">Settings</a></li>
                             </ul>
                             <input type="button" class="user" value="User">
+                            <div class="modal">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="close-modal">&times;</span>
+                                        <h2>User Info</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="full-name">Full Name</label>
+                                                <input type="text" placeholder="Enter your full name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email</label>
+                                                <input type="email" placeholder="Enter your email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="profile-pic">Profile Picture</label>
+                                                <input type="file" accept="img/jpeg, img/png, img/jpg">
+                                            </div>
+                                        </form>
+                                        <input type="submit" class="submit" value="Submit">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <h3>Faketagram &copy; 2022</h3>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </nav>
                 </div>
@@ -44,7 +72,7 @@
                         <div class="post-links">
                             <label for="add-img">
                                 <img class="img-icon" src="assets/media/photo.png">
-                            <input id="add-img" type="file" accept="image/jpeg, image/png">
+                            <input id="add-img" type="file" accept="image/jpeg, image/png, img/jpg, img/gif">
                             </label>
                             <input type="button" class="post" value="Post">
                         </div>
@@ -53,7 +81,7 @@
             </section>
             <footer>
                 <p class="copyright">
-                    Faketagram&#169;
+                    Faketagram &copy; 2022;
                 </p>
             </footer>
         </main>
